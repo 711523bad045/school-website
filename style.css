@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.top-nav {
+  background-color: #0c0c38;
+  color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: orange;
+}
+
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.main-menu li {
+  cursor: pointer;
+  color: white;
+}
+
+.sub-nav {
+  background-color: #121248;
+  padding: 8px 20px;
+}
+
+.sub-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-nav li {
+  color: white;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.image-section img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.welcome-text {
+  max-width: 600px;
+}
+
+.welcome-text h2 {
+  color: #f26522;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#updates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.update-column {
+  width: 22%;
+  margin: 10px;
+  background: #0f0f2f;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.update-column h3 {
+  color: orange;
+  border-bottom: 2px solid orange;
+  padding-bottom: 5px;
+}
+
+.update-column ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+footer {
+  background-color: #1a1a2e;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-contact h4 {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.footer-contact {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 20px;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+#foo{
+    padding: 200%;
+    font-size: 20px;
+    
+}
+.carousel-item{
+    object-fit: cover;
+}
